@@ -63,6 +63,19 @@ section{
       position:unset;
     }
 }
+@media (max-width:770px) {
+  .portada {
+    width: auto;
+    height: auto;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .texto-portada {
+      padding-top: 10%;
+      position:unset;
+    }
+  }
 
 /*footer*/
 .pie {
