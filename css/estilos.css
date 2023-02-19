@@ -75,6 +75,9 @@ section{
       padding-top: 10%;
       position:unset;
     }
+    footer{
+      height: 250px;
+    }
   }
 
 /*footer*/
@@ -148,6 +151,21 @@ section{
       .clases__imagen {
         height: 350px;
       }
+  }
+  @media (max-width:770px){
+    .clases__titulo {
+      font-size: 70px;
+      }
+    .clases__teopracticas {
+      font-size: 35px;
+      }
+      .clases__imagen {
+        height: 350px;
+        margin-bottom: 15px;
+      }
+    footer{
+      height: 250px;
+    }
   }
 
 /*Sobre mi*/
