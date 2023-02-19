@@ -20,6 +20,7 @@ header {
 section{
   min-height: 1200px;
 }
+
 /*Index*/
 .portada {
   width: auto;
@@ -192,6 +193,14 @@ section{
   text-shadow: 0 0 0.9em rgb(231, 218, 43);
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
+}
+.contacto__subtitulo {
+  font-size: 40px;
+  text-shadow: 0 0 0.9em rgb(231, 218, 43);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .contacto__links {
   display: flex;
