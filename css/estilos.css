@@ -269,6 +269,40 @@ section{
     }
   
 }
+@media (max-width:770px){
+  .sobremi__titulo{
+    font-size: 70px;
+  }
+  .sobremi__descripcion {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sobremi__shamslubnan {
+    height: auto;
+    width: 700px;
+  }
+  .sobremi__saidi {
+    height: auto;
+    width: 700px;
+  }
+  
+  .sobremi__alqwwa {
+    height: auto;
+    width: 700px;
+  }
+  .sobremi__hanaan {
+    height: auto;
+    width: 700px;
+  }
+  .sobremi__bailando {
+    height: auto;
+    width: 700px;
+    }
+  footer{
+    height: 250px;
+  }
+}
 
 /*Contacto*/
 .contacto {
