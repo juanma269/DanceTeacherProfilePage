@@ -54,16 +54,20 @@ section{
   .portada {
     width: auto;
     height: auto;
-    background-size:auto;
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     }
-    .texto-portada {
-      padding-top: 50%;
+  .texto-portada {
+      padding-top: 40%;
       position:unset;
     }
+  footer{
+    margin-top: 10px;
+    height: 50px;
+  }
 }
-@media (max-width:770px) {
+@media (max-width:770px) and (min-width:577px) {
   .portada {
     width: auto;
     height: auto;
@@ -76,7 +80,7 @@ section{
       position:unset;
     }
     footer{
-      height: 250px;
+      height: 50px;
     }
   }
 
@@ -145,6 +149,11 @@ section{
     .clases__titulo {
       font-size: 60px;
       }
+    .clases__descripcion {
+        margin-bottom: 3%;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     .clases__teopracticas {
       font-size: 30px;
       }
@@ -152,19 +161,24 @@ section{
         height: 350px;
       }
   }
-  @media (max-width:770px){
+  @media (max-width:770px) and (min-width:577px){
     .clases__titulo {
       font-size: 70px;
       }
     .clases__teopracticas {
       font-size: 35px;
       }
+    .clases__descripcion{
+      font-size: 30px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
       .clases__imagen {
         height: 350px;
         margin-bottom: 15px;
       }
     footer{
-      height: 250px;
+      height: 50px;
     }
   }
 
@@ -248,28 +262,28 @@ section{
   }
   .sobremi__shamslubnan {
     height: auto;
-    width: 400px;
+    width: 350px;
   }
   .sobremi__saidi {
     height: auto;
-    width: 400px;
+    width: 350px;
   }
   
   .sobremi__alqwwa {
     height: auto;
-    width: 400px;
+    width: 350px;
   }
   .sobremi__hanaan {
     height: auto;
-    width: 400px;
+    width: 350px;
   }
   .sobremi__bailando {
     height: auto;
-    width: 400px;
+    width: 350px;
     }
   
 }
-@media (max-width:770px){
+@media (max-width:770px) and (min-width:577px){
   .sobremi__titulo{
     font-size: 70px;
   }
@@ -300,7 +314,7 @@ section{
     width: 700px;
     }
   footer{
-    height: 250px;
+    height: 50px;
   }
 }
 
