@@ -1,0 +1,64 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    object-fit: contain;
+    .contacto__titulo{
+        font-size: 40px;
+        text-shadow: $titulo-principal-shadow;
+    }
+    .contacto__subtitulo {
+        font-size: 40px;
+        text-shadow: 0 0 0.9em rgb(231, 218, 43);
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        }
+    .contacto__links {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        }
+    .imagen__whatsapp {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;  
+        padding: 10px;
+        filter: drop-shadow(0px 0px 30px rgb(4, 187, 10));
+        &:hover{
+            filter: drop-shadow(0px 0px 30px rgb(1, 255, 1));
+        }
+        }
+    .imagen__instagram {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+        padding: 10px;
+        filter: drop-shadow(0px 0px 30px rgb(187, 4, 141));
+        &:hover{            
+        filter: drop-shadow(0px 0px 30px rgb(255, 0, 191));
+        }
+        }
+    }
+
+
+    @media (max-width:576px){
+        .contacto__titulo {
+            font-size: 60px;
+        }
+        .contacto__subtitulo {
+            font-size: 35px;
+            margin: 0 6px;
+        }
+        .imagen__whatsapp {
+            height: 150px;
+            width: 100%;
+        }
+        .imagen__instagram {
+            height: 150px;
+            width: 100%;
+            margin: 50px 2px;
+        }
+}

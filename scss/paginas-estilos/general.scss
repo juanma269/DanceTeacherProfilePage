@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/dark_embroidery.png);
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+main {
+    background-color: rgba(0, 0, 0, 0.487);
+    color: aliceblue;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    .pie {
+        color: azure;
+        height: 20px;
+        .btn {
+            background-color: rgb(77, 67, 2);
+            color: aliceblue;
+            &:hover{
+                color: rgb(225, 210, 122);
+            background-color: rgb(163, 142, 4);
+            filter: drop-shadow(0px 0px 20px rgb(198, 122, 2));
+            }
+        }
+    }
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    }
+section{
+    min-height: 1200px;
+}
+.guarda {
+    margin: 20px 0px;
+    width: 100%;
+    object-fit: contain;
+}
+.guarda2 {
+    margin: 20px 0px;
+    width: 100%;
+    object-fit: contain;
+}

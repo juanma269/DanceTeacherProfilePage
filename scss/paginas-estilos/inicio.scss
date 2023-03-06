@@ -1,0 +1,61 @@
+.portada {
+  width: auto;
+  height: 600px;
+  background-image: url(../img/portada.jpg);
+  background-size: cover;
+  .texto-portada {
+    height: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.698);
+    z-index: 1;
+  }
+  .texto-portada__nombre {
+    font-size: 70px;
+  }
+  .texto-portada__bienvenidos {
+    font-size: 35px;
+  }
+}
+
+//Media Qwerys
+@media (max-width: 576px) {
+  .portada {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .texto-portada {
+    padding-top: 40%;
+    position: unset;
+  }
+  footer {
+    margin-top: 10px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 770px) and (min-width: 577px) {
+  .portada {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .texto-portada {
+    padding-top: 10%;
+    position: unset;
+  }
+  footer {
+    height: 50px;
+  }
+}
