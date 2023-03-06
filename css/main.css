@@ -141,7 +141,7 @@ section {
     margin: 0px 60px;
     filter: drop-shadow(0px 0px 30px #e84833); }
   .sobremi .sobremi__shamslubnan {
-    height: 600px;
+    height: 100%;
     width: 900px;
     object-fit: cover;
     border-radius: 20px;
