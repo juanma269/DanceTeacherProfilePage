@@ -10,11 +10,11 @@
         text-shadow: $titulo-principal-shadow;
     }
     .contacto__subtitulo {
+        text-align: center;
         font-size: 40px;
         text-shadow: 0 0 0.9em rgb(231, 218, 43);
         margin-top: 50px;
         margin-bottom: 50px;
-        text-align: center;
         }
     .contacto__links {
         display: flex;
