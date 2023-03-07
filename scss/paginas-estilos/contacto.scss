@@ -6,16 +6,17 @@
     background-size: cover;
     object-fit: contain;
     .contacto__titulo{
-        font-size: 40px;
+        font-size: 80px;
         text-shadow: $titulo-principal-shadow;
     }
     .contacto__subtitulo {
         text-align: center;
         font-size: 40px;
-        text-shadow: 0 0 0.9em rgb(231, 218, 43);
         margin-top: 50px;
         margin-bottom: 50px;
+        text-shadow: 0 0 0.9em rgb(231, 218, 43);
         }
+    
     .contacto__links {
         display: flex;
         flex-direction: row;
