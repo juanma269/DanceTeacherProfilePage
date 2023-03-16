@@ -30,7 +30,7 @@
     .carousel{
         width: 100%;
         }
-}
+//media queries
 @media (max-width:576px){
     .eventos__titulo{
         font-size: 60px;
@@ -41,4 +41,5 @@
     .carousel-item img{
         height:300px;
     }
+}
 }

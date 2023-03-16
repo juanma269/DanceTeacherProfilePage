@@ -173,55 +173,53 @@ section {
     object-fit: contain;
     border-radius: 65px;
     filter: drop-shadow(0px 0px 30px #2066f1); }
-
-@media (max-width: 576px) {
-  .sobremi__titulo {
-    font-size: 60px; }
-  .sobremi__descripcion {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: 10%; }
-  .sobremi__shamslubnan {
-    height: auto;
-    width: 350px; }
-  .sobremi__saidi {
-    height: auto;
-    width: 350px; }
-  .sobremi__alqwwa {
-    height: auto;
-    width: 350px; }
-  .sobremi__hanaan {
-    height: auto;
-    width: 350px; }
-  .sobremi__bailando {
-    height: auto;
-    width: 350px; } }
-
-@media (min-width: 577px) and (max-width: 770px) {
-  .sobremi__titulo {
-    font-size: 70px; }
-  .sobremi__descripcion {
-    margin-left: 5%;
-    margin-right: 5%; }
-  .sobremi__shamslubnan {
-    height: auto;
-    width: 700px; }
-  .sobremi__saidi {
-    height: auto;
-    width: 700px; }
-  .sobremi__alqwwa {
-    height: auto;
-    width: 700px; }
-  .sobremi__hanaan {
-    height: auto;
-    width: 700px; }
-  .sobremi__bailando {
-    height: auto;
-    width: 700px; }
-  footer {
-    height: 50px; } }
+  @media (max-width: 576px) {
+    .sobremi .sobremi__titulo {
+      font-size: 60px; }
+    .sobremi .sobremi__descripcion {
+      text-align: center;
+      font-size: 20px;
+      margin-top: 10%;
+      margin-left: 10%;
+      margin-right: 10%; }
+    .sobremi .sobremi__shamslubnan {
+      height: auto;
+      width: 350px; }
+    .sobremi .sobremi__saidi {
+      height: auto;
+      width: 350px; }
+    .sobremi .sobremi__alqwwa {
+      height: auto;
+      width: 350px; }
+    .sobremi .sobremi__hanaan {
+      height: auto;
+      width: 350px; }
+    .sobremi .sobremi__bailando {
+      height: auto;
+      width: 350px; } }
+  @media (min-width: 577px) and (max-width: 770px) {
+    .sobremi .sobremi__titulo {
+      font-size: 70px; }
+    .sobremi .sobremi__descripcion {
+      margin-left: 5%;
+      margin-right: 5%; }
+    .sobremi .sobremi__shamslubnan {
+      height: auto;
+      width: 700px; }
+    .sobremi .sobremi__saidi {
+      height: auto;
+      width: 700px; }
+    .sobremi .sobremi__alqwwa {
+      height: auto;
+      width: 700px; }
+    .sobremi .sobremi__hanaan {
+      height: auto;
+      width: 700px; }
+    .sobremi .sobremi__bailando {
+      height: auto;
+      width: 700px; }
+    .sobremi footer {
+      height: 50px; } }
 
 .contacto {
   display: flex;
@@ -316,11 +314,10 @@ section {
     object-fit: cover; }
   .eventos .carousel {
     width: 100%; }
-
-@media (max-width: 576px) {
-  .eventos__titulo {
-    font-size: 60px; }
-  .eventos__subtitulo {
-    display: flex; }
-  .carousel-item img {
-    height: 300px; } }
+  @media (max-width: 576px) {
+    .eventos .eventos__titulo {
+      font-size: 60px; }
+    .eventos .eventos__subtitulo {
+      display: flex; }
+    .eventos .carousel-item img {
+      height: 300px; } }
