@@ -22,7 +22,7 @@
         height: 600px;
         object-fit: contain;
         margin: 0px 60px;
-        filter: drop-shadow(0px 0px 30px rgb(232, 72, 51));
+        filter: drop-shadow(0px 0px 30px rgb(232, 172, 51));
     }
     .sobremi__shamslubnan {
         height: 100%;
@@ -57,7 +57,7 @@
         height: 600px;
         width:900px;
         object-fit: contain;
-        border-radius: 20px;
+        border-radius: 65px;
         filter: drop-shadow(0px 0px 30px rgb(32, 102, 241));
         }
 }
@@ -97,7 +97,7 @@
         }
     
     }
-@media (max-width:770px) and (min-width:577px){
+@media (min-width:577px) and (max-width:770px){
     .sobremi__titulo{
         font-size: 70px;
     }
