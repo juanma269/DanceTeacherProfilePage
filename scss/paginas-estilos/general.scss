@@ -3,11 +3,17 @@ body {
     padding: 0;
     background-image: url(../img/dark_embroidery.png);
     font-family: 'Noto Sans Symbols', sans-serif;
+    header{
+        .navbar{
+            z-index: 1;
+        }
+    }
 }
 main {
     background-color: rgba(0, 0, 0, 0.487);
     color: aliceblue;
 }
+
 footer{
     height: 50px;
     width: 100%;

@@ -3,6 +3,8 @@ body {
   padding: 0;
   background-image: url(../img/dark_embroidery.png);
   font-family: 'Noto Sans Symbols', sans-serif; }
+  body header .navbar {
+    z-index: 1; }
 
 main {
   background-color: rgba(0, 0, 0, 0.487);
@@ -47,20 +49,20 @@ section {
   background-size: cover; }
   .portada .texto-portada {
     height: 200px;
+    width: 100%;
     text-align: center;
     color: white;
     position: relative;
     top: 50%;
     bottom: 0;
     right: 0;
-    left: 0;
-    content: "";
-    background: rgba(0, 0, 0, 0.698);
-    z-index: 1; }
-  .portada .texto-portada__nombre {
-    font-size: 70px; }
-  .portada .texto-portada__bienvenidos {
-    font-size: 35px; }
+    left: 0; }
+  .portada .container-fluid {
+    background-color: rgba(0, 0, 0, 0.726); }
+    .portada .container-fluid .texto-portada__nombre {
+      font-size: 70px; }
+    .portada .container-fluid .texto-portada__bienvenidos {
+      font-size: 35px; }
 
 @media (max-width: 576px) {
   .portada {
@@ -70,7 +72,7 @@ section {
     background-position: center;
     background-repeat: no-repeat; }
   .texto-portada {
-    padding-top: 40%;
+    padding: 70% 30%;
     position: unset; }
   footer {
     margin-top: 10px;
@@ -84,8 +86,8 @@ section {
     background-position: center;
     background-repeat: no-repeat; }
   .texto-portada {
-    padding-top: 10%;
-    position: unset; }
+    padding-top: 60%;
+    position: bottom; }
   footer {
     height: 50px; } }
 
