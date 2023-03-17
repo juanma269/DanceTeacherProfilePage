@@ -1,3 +1,4 @@
+.seccion_contacto{
 .contacto {
     display: flex;
     flex-direction: column;
@@ -24,7 +25,6 @@
         }
     .imagen__whatsapp {
         height: 200px;
-        width: 100%;
         object-fit: cover;  
         padding: 10px;
         filter: drop-shadow(0px 0px 30px rgb(4, 187, 10));
@@ -34,7 +34,6 @@
         }
     .imagen__instagram {
         height: 200px;
-        width: 100%;
         object-fit: cover;
         padding: 10px;
         filter: drop-shadow(0px 0px 30px rgb(187, 4, 141));
@@ -42,9 +41,11 @@
         filter: drop-shadow(0px 0px 30px rgb(255, 0, 191));
         }
         }
-    }
+    
+
+}
 .contacto_form{
-    .contacto__subtitulo {
+    .contacto__subtitulo{
         text-align: center;
         font-size: 40px;
         margin-top: 50px;
@@ -52,12 +53,13 @@
         text-shadow: 0 0 0.9em rgb(231, 218, 43);
         }
     .btn{
-        background-color: rgb(77, 67, 2);
-        color: aliceblue;
-        &:hover{
-            color: rgb(225, 210, 122);
-            background-color: rgb(163, 142, 4);
-            filter: drop-shadow(0px 0px 20px rgb(198, 122, 2));
+    background-color: rgb(77, 67, 2);
+    color: aliceblue;
+    &:hover{
+        color: rgb(225, 210, 122);
+        background-color: rgb(163, 142, 4);
+        filter: drop-shadow(0px 0px 20px rgb(198, 122, 2));
+    }
     }
 }
 //media queries
@@ -69,14 +71,22 @@
         font-size: 30px;
         margin: 6px;
     }
+    .contacto__links{
     .imagen__whatsapp {
-        height: 50px;
+        height: 150px;
         width: auto;
     }
     .imagen__instagram {
-        height: 50px;
+        height:150px;
         width: auto;
         margin: 30px 2px;
+    }
+    }
+    .contacto_form{
+        .contacto__subtitulo {
+            font-size: 25px;
+            margin: 6px;
+        }
     }
 }
 }

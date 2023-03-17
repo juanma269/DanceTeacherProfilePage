@@ -245,71 +245,72 @@ section {
     .sobremi footer {
       height: 50px; } }
 
-.contacto {
+.seccion_contacto .contacto {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background-size: cover;
   object-fit: contain; }
-  .contacto .contacto__titulo {
+  .seccion_contacto .contacto .contacto__titulo {
     font-size: 80px;
     text-shadow: 0 0 0.9em #e7da2b; }
-  .contacto .contacto__subtitulo {
+  .seccion_contacto .contacto .contacto__subtitulo {
     text-align: center;
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 50px;
     text-shadow: 0 0 0.9em #e7da2b; }
-  .contacto .contacto__links {
+  .seccion_contacto .contacto .contacto__links {
     display: flex;
     flex-direction: row;
     align-items: center; }
-  .contacto .imagen__whatsapp {
+  .seccion_contacto .contacto .imagen__whatsapp {
     height: 200px;
-    width: 100%;
     object-fit: cover;
     padding: 10px;
     filter: drop-shadow(0px 0px 30px #04bb0a); }
-    .contacto .imagen__whatsapp:hover {
+    .seccion_contacto .contacto .imagen__whatsapp:hover {
       filter: drop-shadow(0px 0px 30px #01ff01); }
-  .contacto .imagen__instagram {
+  .seccion_contacto .contacto .imagen__instagram {
     height: 200px;
-    width: 100%;
     object-fit: cover;
     padding: 10px;
     filter: drop-shadow(0px 0px 30px #bb048d); }
-    .contacto .imagen__instagram:hover {
+    .seccion_contacto .contacto .imagen__instagram:hover {
       filter: drop-shadow(0px 0px 30px #ff00bf); }
 
-.contacto_form .contacto__subtitulo {
+.seccion_contacto .contacto_form .contacto__subtitulo {
   text-align: center;
   font-size: 40px;
   margin-top: 50px;
   margin-bottom: 50px;
   text-shadow: 0 0 0.9em #e7da2b; }
 
-.contacto_form .btn {
+.seccion_contacto .contacto_form .btn {
   background-color: #4d4302;
   color: aliceblue; }
-  .contacto_form .btn:hover {
+  .seccion_contacto .contacto_form .btn:hover {
     color: #e1d27a;
     background-color: #a38e04;
     filter: drop-shadow(0px 0px 20px #c67a02); }
 
 @media (max-width: 576px) {
-  .contacto_form .contacto__titulo {
+  .seccion_contacto .contacto__titulo {
     font-size: 60px; }
-  .contacto_form .contacto__subtitulo {
+  .seccion_contacto .contacto__subtitulo {
     font-size: 30px;
     margin: 6px; }
-  .contacto_form .imagen__whatsapp {
-    height: 50px;
+  .seccion_contacto .contacto__links .imagen__whatsapp {
+    height: 150px;
     width: auto; }
-  .contacto_form .imagen__instagram {
-    height: 50px;
+  .seccion_contacto .contacto__links .imagen__instagram {
+    height: 150px;
     width: auto;
-    margin: 30px 2px; } }
+    margin: 30px 2px; }
+  .seccion_contacto .contacto_form .contacto__subtitulo {
+    font-size: 25px;
+    margin: 6px; } }
 
 .eventos {
   display: flex;
