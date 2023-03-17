@@ -17,11 +17,12 @@ footer {
     color: azure;
     height: 20px; }
     footer .pie p {
+      padding-bottom: 20px;
       margin-left: 20px; }
     footer .pie .btn {
       background-color: #4d4302;
       color: aliceblue;
-      margin-left: 20px; }
+      margin: 20px; }
       footer .pie .btn:hover {
         color: #e1d27a;
         background-color: #a38e04;

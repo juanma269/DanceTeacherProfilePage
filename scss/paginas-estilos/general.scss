@@ -21,12 +21,14 @@ footer{
         color: azure;
         height: 20px;
         p{
+            padding-bottom: 20px;
             margin-left: 20px;
+            
         }
         .btn {
             background-color: rgb(77, 67, 2);
             color: aliceblue;
-            margin-left: 20px;
+            margin:20px;
             &:hover{
                 color: rgb(225, 210, 122);
             background-color: rgb(163, 142, 4);
