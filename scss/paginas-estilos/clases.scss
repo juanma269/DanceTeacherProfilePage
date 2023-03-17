@@ -18,15 +18,43 @@
     .clases__descripcion {
         text-align: center;
         font-size: 20px;
-        margin-bottom: 3%;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     .clases__imagen {
         height: 600px;
         width: 100%;
+        margin: 30px;
         object-fit: contain;
         border-radius: 20px;
         filter: drop-shadow(0px 0px 30px rgb(254, 158, 4));
     }
+    
+//media queries
+@media (max-width: 576px){
+    .clases__titulo {
+        font-size: 60px;
+        text-shadow: $titulo-principal-shadow;
+    }
+    .clases__teopracticas {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .clases__descripcion {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .clases__imagen {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: auto;
+        width: 90%;
+    }
+}
 }

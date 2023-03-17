@@ -16,9 +16,12 @@ footer {
   footer .pie {
     color: azure;
     height: 20px; }
+    footer .pie p {
+      margin-left: 20px; }
     footer .pie .btn {
       background-color: #4d4302;
-      color: aliceblue; }
+      color: aliceblue;
+      margin-left: 20px; }
       footer .pie .btn:hover {
         color: #e1d27a;
         background-color: #a38e04;
@@ -109,15 +112,36 @@ section {
   .clases .clases__descripcion {
     text-align: center;
     font-size: 20px;
-    margin-bottom: 3%;
-    margin-left: 25%;
-    margin-right: 25%; }
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px; }
   .clases .clases__imagen {
     height: 600px;
     width: 100%;
+    margin: 30px;
     object-fit: contain;
     border-radius: 20px;
     filter: drop-shadow(0px 0px 30px #fe9e04); }
+  @media (max-width: 576px) {
+    .clases .clases__titulo {
+      font-size: 60px;
+      text-shadow: 0 0 0.9em #e7da2b; }
+    .clases .clases__teopracticas {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 35px; }
+    .clases .clases__descripcion {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .clases .clases__imagen {
+      margin-top: 10px;
+      margin-bottom: 15px;
+      height: auto;
+      width: 90%; } }
 
 .sobremi {
   display: flex;
@@ -274,18 +298,18 @@ section {
     filter: drop-shadow(0px 0px 20px #c67a02); }
 
 @media (max-width: 576px) {
-  .contacto__titulo {
+  .contacto_form .contacto__titulo {
     font-size: 60px; }
-  .contacto__subtitulo {
-    font-size: 35px;
-    margin: 0 6px; }
-  .imagen__whatsapp {
-    height: 150px;
-    width: 100%; }
-  .imagen__instagram {
-    height: 150px;
-    width: 100%;
-    margin: 50px 2px; } }
+  .contacto_form .contacto__subtitulo {
+    font-size: 30px;
+    margin: 6px; }
+  .contacto_form .imagen__whatsapp {
+    height: 50px;
+    width: auto; }
+  .contacto_form .imagen__instagram {
+    height: 50px;
+    width: auto;
+    margin: 30px 2px; } }
 
 .eventos {
   display: flex;
@@ -313,7 +337,7 @@ section {
     height: 710px;
     object-fit: cover; }
   .eventos .carousel {
-    width: 100%; }
+    width: 70%; }
   @media (max-width: 576px) {
     .eventos .eventos__titulo {
       font-size: 60px; }

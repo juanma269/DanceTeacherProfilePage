@@ -60,24 +60,23 @@
             filter: drop-shadow(0px 0px 20px rgb(198, 122, 2));
     }
 }
+//media queries
+@media (max-width: 576px){
+    .contacto__titulo {
+        font-size: 60px;
+    }
+    .contacto__subtitulo {
+        font-size: 30px;
+        margin: 6px;
+    }
+    .imagen__whatsapp {
+        height: 50px;
+        width: auto;
+    }
+    .imagen__instagram {
+        height: 50px;
+        width: auto;
+        margin: 30px 2px;
+    }
 }
-
-
-    @media (max-width:576px){
-        .contacto__titulo {
-            font-size: 60px;
-        }
-        .contacto__subtitulo {
-            font-size: 35px;
-            margin: 0 6px;
-        }
-        .imagen__whatsapp {
-            height: 150px;
-            width: 100%;
-        }
-        .imagen__instagram {
-            height: 150px;
-            width: 100%;
-            margin: 50px 2px;
-        }
 }
