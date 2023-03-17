@@ -3,6 +3,7 @@
   height: 600px;
   background-image: url(../img/portada.jpg);
   background-size:cover;
+  background-position: center;
   .texto-portada {        
     height: 200px;
     width: 100%;
@@ -24,40 +25,29 @@
     }
   }
   
-}
-
 //Media Qwerys
 @media (max-width: 576px) {
   .portada {
-    width: auto;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(/img/portada500px.jpg);
     }
-  .texto-portada {
-    padding: 70% 30%;
-    position: unset;
+    .texto-portada {
+      height: 1200px;
+      width: 100%;
+      padding: 70% 30%;
+      position: unset;
     }
-  footer {
-    margin-top: 10px;
-    height: 50px;
-  }
 }
 
-@media (max-width: 770px) and (min-width: 577px) {
+@media (min-width: 577px) and (max-width: 770px){
   .portada {
-    width: auto;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(/img/portada800px.jpg);
   }
   .texto-portada {
+    height: 1200px;
+    width: 100%;
     padding-top: 60%;
-    position: bottom;
-  }
-  footer {
-    height: 50px;
+    background-color: rgba(0, 0, 0, 0.643);
   }
 }
+}
+
